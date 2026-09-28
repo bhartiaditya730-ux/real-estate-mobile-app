@@ -38,8 +38,29 @@ local.properties
 # node.js
 #
 node_modules/
-npm-debug.log
-yarn-error.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+!.env.example
+
+# Local helper scripts & IDE
+powershell.cmd
+.vscode/
+.bundle/
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
 
 # fastlane
 #
